@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2408E251E76A4AF0075E353 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2408E241E76A4AF0075E353 /* GameLogic.swift */; };
+		D2408E291E76B0110075E353 /* SKMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2408E281E76B0110075E353 /* SKMultilineLabel.swift */; };
+		D2408E2B1E76C5580075E353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2408E2A1E76C5580075E353 /* Assets.xcassets */; };
+		D2408E2D1E76C68B0075E353 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D2408E2C1E76C68B0075E353 /* MenuScene.sks */; };
+		D2408E2F1E76C6A80075E353 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2408E2E1E76C6A80075E353 /* MenuScene.swift */; };
 		D26E3DFC1E717B5600FB720E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E3DFB1E717B5600FB720E /* AppDelegate.swift */; };
 		D26E3DFE1E717B5600FB720E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D26E3DFD1E717B5600FB720E /* GameScene.sks */; };
 		D26E3E001E717B5600FB720E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D26E3DFF1E717B5600FB720E /* Actions.sks */; };
 		D26E3E021E717B5600FB720E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E3E011E717B5600FB720E /* GameScene.swift */; };
 		D26E3E041E717B5600FB720E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E3E031E717B5600FB720E /* GameViewController.swift */; };
 		D26E3E071E717B5600FB720E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26E3E051E717B5600FB720E /* Main.storyboard */; };
-		D26E3E091E717B5600FB720E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26E3E081E717B5600FB720E /* Assets.xcassets */; };
 		D26E3E0C1E717B5600FB720E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26E3E0A1E717B5600FB720E /* LaunchScreen.storyboard */; };
+		D26E3E351E718D6B00FB720E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E3E341E718D6B00FB720E /* Card.swift */; };
+		D29F34441E76CBD300513E02 /* SCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F34431E76CBD300513E02 /* SCButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2408E241E76A4AF0075E353 /* GameLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		D2408E281E76B0110075E353 /* SKMultilineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKMultilineLabel.swift; path = "../../../../Downloads/03bfa93c07e247ee9358-e2cd8a5e0c5f7bbc65c8c6c2e379c130a57cb8be/SKMultilineLabel.swift"; sourceTree = "<group>"; };
+		D2408E2A1E76C5580075E353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2408E2C1E76C68B0075E353 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		D2408E2E1E76C6A80075E353 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		D26E3DF81E717B5600FB720E /* KingsCup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingsCup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26E3DFB1E717B5600FB720E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D26E3DFD1E717B5600FB720E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -25,9 +36,10 @@
 		D26E3E011E717B5600FB720E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D26E3E031E717B5600FB720E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D26E3E061E717B5600FB720E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D26E3E081E717B5600FB720E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D26E3E0B1E717B5600FB720E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D26E3E0D1E717B5600FB720E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26E3E341E718D6B00FB720E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D29F34431E76CBD300513E02 /* SCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +73,20 @@
 			isa = PBXGroup;
 			children = (
 				D26E3DFB1E717B5600FB720E /* AppDelegate.swift */,
+				D2408E281E76B0110075E353 /* SKMultilineLabel.swift */,
 				D26E3DFD1E717B5600FB720E /* GameScene.sks */,
 				D26E3DFF1E717B5600FB720E /* Actions.sks */,
 				D26E3E011E717B5600FB720E /* GameScene.swift */,
+				D26E3E341E718D6B00FB720E /* Card.swift */,
+				D2408E241E76A4AF0075E353 /* GameLogic.swift */,
 				D26E3E031E717B5600FB720E /* GameViewController.swift */,
+				D2408E2C1E76C68B0075E353 /* MenuScene.sks */,
+				D2408E2E1E76C6A80075E353 /* MenuScene.swift */,
 				D26E3E051E717B5600FB720E /* Main.storyboard */,
-				D26E3E081E717B5600FB720E /* Assets.xcassets */,
 				D26E3E0A1E717B5600FB720E /* LaunchScreen.storyboard */,
 				D26E3E0D1E717B5600FB720E /* Info.plist */,
+				D2408E2A1E76C5580075E353 /* Assets.xcassets */,
+				D29F34431E76CBD300513E02 /* SCButton.swift */,
 			);
 			path = KingsCup;
 			sourceTree = "<group>";
@@ -80,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D26E3E101E717B5600FB720E /* Build configuration list for PBXNativeTarget "KingsCup" */;
 			buildPhases = (
+				6A19CD5C6BA51263252DA203 /* [CP] Check Pods Manifest.lock */,
 				D26E3DF41E717B5600FB720E /* Sources */,
 				D26E3DF51E717B5600FB720E /* Frameworks */,
 				D26E3DF61E717B5600FB720E /* Resources */,
+				495D506C4863BD422DAC4E74 /* [CP] Embed Pods Frameworks */,
+				088903277293A3635DDA6D99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +155,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				D26E3E071E717B5600FB720E /* Main.storyboard in Resources */,
+				D2408E2D1E76C68B0075E353 /* MenuScene.sks in Resources */,
 				D26E3DFE1E717B5600FB720E /* GameScene.sks in Resources */,
-				D26E3E091E717B5600FB720E /* Assets.xcassets in Resources */,
 				D26E3E0C1E717B5600FB720E /* LaunchScreen.storyboard in Resources */,
 				D26E3E001E717B5600FB720E /* Actions.sks in Resources */,
+				D2408E2B1E76C5580075E353 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		088903277293A3635DDA6D99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KingsCup/Pods-KingsCup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495D506C4863BD422DAC4E74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KingsCup/Pods-KingsCup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A19CD5C6BA51263252DA203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D26E3DF41E717B5600FB720E /* Sources */ = {
@@ -150,7 +220,12 @@
 			files = (
 				D26E3E021E717B5600FB720E /* GameScene.swift in Sources */,
 				D26E3E041E717B5600FB720E /* GameViewController.swift in Sources */,
+				D2408E291E76B0110075E353 /* SKMultilineLabel.swift in Sources */,
+				D29F34441E76CBD300513E02 /* SCButton.swift in Sources */,
+				D2408E2F1E76C6A80075E353 /* MenuScene.swift in Sources */,
 				D26E3DFC1E717B5600FB720E /* AppDelegate.swift in Sources */,
+				D2408E251E76A4AF0075E353 /* GameLogic.swift in Sources */,
+				D26E3E351E718D6B00FB720E /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +387,7 @@
 				D26E3E121E717B5600FB720E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
