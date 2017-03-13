@@ -21,6 +21,8 @@
 		D26E3E0C1E717B5600FB720E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26E3E0A1E717B5600FB720E /* LaunchScreen.storyboard */; };
 		D26E3E351E718D6B00FB720E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E3E341E718D6B00FB720E /* Card.swift */; };
 		D29F34441E76CBD300513E02 /* SCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F34431E76CBD300513E02 /* SCButton.swift */; };
+		D2CFA9F21E76D284005FA6C6 /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CFA9F11E76D284005FA6C6 /* SettingsScene.swift */; };
+		D2CFA9F41E76D28F005FA6C6 /* SettingsScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D2CFA9F31E76D28F005FA6C6 /* SettingsScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		D26E3E0D1E717B5600FB720E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D26E3E341E718D6B00FB720E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		D29F34431E76CBD300513E02 /* SCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCButton.swift; sourceTree = "<group>"; };
+		D2CFA9F11E76D284005FA6C6 /* SettingsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
+		D2CFA9F31E76D28F005FA6C6 /* SettingsScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SettingsScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				D26E3DFB1E717B5600FB720E /* AppDelegate.swift */,
+				D29F34431E76CBD300513E02 /* SCButton.swift */,
 				D2408E281E76B0110075E353 /* SKMultilineLabel.swift */,
 				D26E3DFD1E717B5600FB720E /* GameScene.sks */,
 				D26E3DFF1E717B5600FB720E /* Actions.sks */,
@@ -82,11 +87,12 @@
 				D26E3E031E717B5600FB720E /* GameViewController.swift */,
 				D2408E2C1E76C68B0075E353 /* MenuScene.sks */,
 				D2408E2E1E76C6A80075E353 /* MenuScene.swift */,
+				D2CFA9F11E76D284005FA6C6 /* SettingsScene.swift */,
+				D2CFA9F31E76D28F005FA6C6 /* SettingsScene.sks */,
 				D26E3E051E717B5600FB720E /* Main.storyboard */,
 				D26E3E0A1E717B5600FB720E /* LaunchScreen.storyboard */,
 				D26E3E0D1E717B5600FB720E /* Info.plist */,
 				D2408E2A1E76C5580075E353 /* Assets.xcassets */,
-				D29F34431E76CBD300513E02 /* SCButton.swift */,
 			);
 			path = KingsCup;
 			sourceTree = "<group>";
@@ -153,6 +159,7 @@
 			files = (
 				D26E3E071E717B5600FB720E /* Main.storyboard in Resources */,
 				D2408E2D1E76C68B0075E353 /* MenuScene.sks in Resources */,
+				D2CFA9F41E76D28F005FA6C6 /* SettingsScene.sks in Resources */,
 				D26E3DFE1E717B5600FB720E /* GameScene.sks in Resources */,
 				D26E3E0C1E717B5600FB720E /* LaunchScreen.storyboard in Resources */,
 				D26E3E001E717B5600FB720E /* Actions.sks in Resources */,
@@ -173,6 +180,7 @@
 				D29F34441E76CBD300513E02 /* SCButton.swift in Sources */,
 				D2408E2F1E76C6A80075E353 /* MenuScene.swift in Sources */,
 				D26E3DFC1E717B5600FB720E /* AppDelegate.swift in Sources */,
+				D2CFA9F21E76D284005FA6C6 /* SettingsScene.swift in Sources */,
 				D2408E251E76A4AF0075E353 /* GameLogic.swift in Sources */,
 				D26E3E351E718D6B00FB720E /* Card.swift in Sources */,
 			);
