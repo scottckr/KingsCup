@@ -18,6 +18,7 @@ class Card : SKSpriteNode {
     let suit : Suit
     let value : Int
     let backTexture : SKTexture = SKTexture(imageNamed: "card_back")
+    var isOnTop : Bool = false
     var defaultPos = CGPoint(x: 0, y: 0)
     var frontTexture : SKTexture = SKTexture()
     
@@ -64,6 +65,7 @@ class Card : SKSpriteNode {
         if !faceUp {
             run(firstHalfFlip) {
                 self.texture = self.frontTexture
+                self.run(SKAction.playSoundFileNamed("card_draw.wav", waitForCompletion: false))
                 self.run(secondHalfFlip)
             }
             faceUp = !faceUp

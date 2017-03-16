@@ -23,24 +23,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tableBackground" translatesAutoresizingMaskIntoConstraints="NO" id="N1I-wU-TiN">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="-85" y="-160" width="545" height="990"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_back" translatesAutoresizingMaskIntoConstraints="NO" id="gc9-hc-AZk">
-                                <rect key="frame" x="67" y="269" width="241" height="360"/>
+                                <rect key="frame" x="67" y="269" width="242" height="360"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beer_glass" translatesAutoresizingMaskIntoConstraints="NO" id="87c-Ij-GUc">
-                                <rect key="frame" x="148" y="55" width="78" height="206"/>
+                                <rect key="frame" x="148.5" y="55" width="78" height="206"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="78" id="fH5-y6-Z5e"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="King's Cup" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFh-hy-QXf">
-                                <rect key="frame" x="70" y="128" width="234" height="61"/>
+                                <rect key="frame" x="70" y="128" width="235" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="SC8-PF-PuD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="35"/>
-                                <color key="textColor" red="0.26965395939999998" green="0.2153190985" blue="0.12292268720000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27058823529411763" green="0.21568627450980393" blue="0.12156862745098039" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -48,14 +48,14 @@
                         <constraints>
                             <constraint firstItem="QFh-hy-QXf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="54" id="8Dk-48-lft"/>
                             <constraint firstItem="87c-Ij-GUc" firstAttribute="centerX" secondItem="QFh-hy-QXf" secondAttribute="centerX" id="Aro-Mv-8iy"/>
-                            <constraint firstItem="N1I-wU-TiN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="HW0-El-nxK"/>
+                            <constraint firstItem="N1I-wU-TiN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-85" id="HW0-El-nxK"/>
                             <constraint firstItem="N1I-wU-TiN" firstAttribute="centerX" secondItem="87c-Ij-GUc" secondAttribute="centerX" id="Ifx-fP-U1c"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="gc9-hc-AZk" secondAttribute="bottom" constant="38" id="NN7-9v-kSH"/>
-                            <constraint firstItem="N1I-wU-TiN" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="Vji-Du-yKG"/>
+                            <constraint firstItem="N1I-wU-TiN" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" constant="163" id="Vji-Du-yKG"/>
                             <constraint firstItem="87c-Ij-GUc" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="35" id="WYV-xk-ibZ"/>
-                            <constraint firstAttribute="trailing" secondItem="N1I-wU-TiN" secondAttribute="trailing" id="aNi-io-wq0"/>
+                            <constraint firstAttribute="trailing" secondItem="N1I-wU-TiN" secondAttribute="trailing" constant="-85" id="aNi-io-wq0"/>
                             <constraint firstItem="QFh-hy-QXf" firstAttribute="centerX" secondItem="gc9-hc-AZk" secondAttribute="centerX" id="gZt-vP-kfj"/>
-                            <constraint firstItem="N1I-wU-TiN" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="hWe-ym-gaI"/>
+                            <constraint firstItem="N1I-wU-TiN" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-180" id="hWe-ym-gaI"/>
                             <constraint firstItem="gc9-hc-AZk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="51" id="iLJ-Ed-qwB"/>
                             <constraint firstItem="gc9-hc-AZk" firstAttribute="top" secondItem="87c-Ij-GUc" secondAttribute="bottom" constant="8" symbolic="YES" id="qIy-No-fTO"/>
                             <constraint firstItem="QFh-hy-QXf" firstAttribute="centerY" secondItem="87c-Ij-GUc" secondAttribute="centerY" id="tdY-Hf-ovR"/>

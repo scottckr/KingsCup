@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2408E251E76A4AF0075E353 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2408E241E76A4AF0075E353 /* GameLogic.swift */; };
+		D2408E251E76A4AF0075E353 /* GameRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2408E241E76A4AF0075E353 /* GameRules.swift */; };
 		D2408E291E76B0110075E353 /* SKMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2408E281E76B0110075E353 /* SKMultilineLabel.swift */; };
 		D2408E2B1E76C5580075E353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2408E2A1E76C5580075E353 /* Assets.xcassets */; };
 		D2408E2D1E76C68B0075E353 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D2408E2C1E76C68B0075E353 /* MenuScene.sks */; };
@@ -21,12 +21,15 @@
 		D26E3E0C1E717B5600FB720E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26E3E0A1E717B5600FB720E /* LaunchScreen.storyboard */; };
 		D26E3E351E718D6B00FB720E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E3E341E718D6B00FB720E /* Card.swift */; };
 		D29F34441E76CBD300513E02 /* SCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F34431E76CBD300513E02 /* SCButton.swift */; };
-		D2CFA9F21E76D284005FA6C6 /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CFA9F11E76D284005FA6C6 /* SettingsScene.swift */; };
-		D2CFA9F41E76D28F005FA6C6 /* SettingsScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D2CFA9F31E76D28F005FA6C6 /* SettingsScene.sks */; };
+		D2CDC3581E7966D700756EA3 /* card_draw.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2CDC3561E7966D700756EA3 /* card_draw.wav */; };
+		D2CDC3591E7966D700756EA3 /* card_throw.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2CDC3571E7966D700756EA3 /* card_throw.wav */; };
+		D2CDC35B1E7AF31800756EA3 /* EditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CDC35A1E7AF31800756EA3 /* EditingViewController.swift */; };
+		D2CFA9F81E76E49D005FA6C6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CFA9F71E76E49D005FA6C6 /* SettingsViewController.swift */; };
+		D2CFA9FA1E76EB9D005FA6C6 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CFA9F91E76EB9D005FA6C6 /* Settings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D2408E241E76A4AF0075E353 /* GameLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		D2408E241E76A4AF0075E353 /* GameRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRules.swift; sourceTree = "<group>"; };
 		D2408E281E76B0110075E353 /* SKMultilineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKMultilineLabel.swift; path = "../../../../Downloads/03bfa93c07e247ee9358-e2cd8a5e0c5f7bbc65c8c6c2e379c130a57cb8be/SKMultilineLabel.swift"; sourceTree = "<group>"; };
 		D2408E2A1E76C5580075E353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2408E2C1E76C68B0075E353 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
@@ -42,8 +45,11 @@
 		D26E3E0D1E717B5600FB720E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D26E3E341E718D6B00FB720E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		D29F34431E76CBD300513E02 /* SCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCButton.swift; sourceTree = "<group>"; };
-		D2CFA9F11E76D284005FA6C6 /* SettingsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
-		D2CFA9F31E76D28F005FA6C6 /* SettingsScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SettingsScene.sks; sourceTree = "<group>"; };
+		D2CDC3561E7966D700756EA3 /* card_draw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = card_draw.wav; path = ../../../../Downloads/cockatrice/card_draw.wav; sourceTree = "<group>"; };
+		D2CDC3571E7966D700756EA3 /* card_throw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = card_throw.wav; path = ../../../../Downloads/cockatrice/card_throw.wav; sourceTree = "<group>"; };
+		D2CDC35A1E7AF31800756EA3 /* EditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingViewController.swift; sourceTree = "<group>"; };
+		D2CFA9F71E76E49D005FA6C6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D2CFA9F91E76EB9D005FA6C6 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D23E73DD1E7B0A2600596977 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D26E3E031E717B5600FB720E /* GameViewController.swift */,
+				D2CFA9F71E76E49D005FA6C6 /* SettingsViewController.swift */,
+				D2CDC35A1E7AF31800756EA3 /* EditingViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D23E73DE1E7B0A3500596977 /* SKScenes */ = {
+			isa = PBXGroup;
+			children = (
+				D26E3DFD1E717B5600FB720E /* GameScene.sks */,
+				D2408E2C1E76C68B0075E353 /* MenuScene.sks */,
+				D26E3DFF1E717B5600FB720E /* Actions.sks */,
+			);
+			name = SKScenes;
+			sourceTree = "<group>";
+		};
 		D26E3DEF1E717B5600FB720E = {
 			isa = PBXGroup;
 			children = (
@@ -76,25 +102,32 @@
 		D26E3DFA1E717B5600FB720E /* KingsCup */ = {
 			isa = PBXGroup;
 			children = (
+				D23E73DE1E7B0A3500596977 /* SKScenes */,
+				D23E73DD1E7B0A2600596977 /* View Controllers */,
+				D2CDC3551E7966C500756EA3 /* Sounds */,
 				D26E3DFB1E717B5600FB720E /* AppDelegate.swift */,
 				D29F34431E76CBD300513E02 /* SCButton.swift */,
 				D2408E281E76B0110075E353 /* SKMultilineLabel.swift */,
-				D26E3DFD1E717B5600FB720E /* GameScene.sks */,
-				D26E3DFF1E717B5600FB720E /* Actions.sks */,
-				D26E3E011E717B5600FB720E /* GameScene.swift */,
 				D26E3E341E718D6B00FB720E /* Card.swift */,
-				D2408E241E76A4AF0075E353 /* GameLogic.swift */,
-				D26E3E031E717B5600FB720E /* GameViewController.swift */,
-				D2408E2C1E76C68B0075E353 /* MenuScene.sks */,
+				D2408E241E76A4AF0075E353 /* GameRules.swift */,
+				D26E3E011E717B5600FB720E /* GameScene.swift */,
 				D2408E2E1E76C6A80075E353 /* MenuScene.swift */,
-				D2CFA9F11E76D284005FA6C6 /* SettingsScene.swift */,
-				D2CFA9F31E76D28F005FA6C6 /* SettingsScene.sks */,
 				D26E3E051E717B5600FB720E /* Main.storyboard */,
+				D2CFA9F91E76EB9D005FA6C6 /* Settings.storyboard */,
 				D26E3E0A1E717B5600FB720E /* LaunchScreen.storyboard */,
 				D26E3E0D1E717B5600FB720E /* Info.plist */,
 				D2408E2A1E76C5580075E353 /* Assets.xcassets */,
 			);
 			path = KingsCup;
+			sourceTree = "<group>";
+		};
+		D2CDC3551E7966C500756EA3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D2CDC3561E7966D700756EA3 /* card_draw.wav */,
+				D2CDC3571E7966D700756EA3 /* card_throw.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,13 +190,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CDC3581E7966D700756EA3 /* card_draw.wav in Resources */,
 				D26E3E071E717B5600FB720E /* Main.storyboard in Resources */,
 				D2408E2D1E76C68B0075E353 /* MenuScene.sks in Resources */,
-				D2CFA9F41E76D28F005FA6C6 /* SettingsScene.sks in Resources */,
 				D26E3DFE1E717B5600FB720E /* GameScene.sks in Resources */,
 				D26E3E0C1E717B5600FB720E /* LaunchScreen.storyboard in Resources */,
 				D26E3E001E717B5600FB720E /* Actions.sks in Resources */,
 				D2408E2B1E76C5580075E353 /* Assets.xcassets in Resources */,
+				D2CFA9FA1E76EB9D005FA6C6 /* Settings.storyboard in Resources */,
+				D2CDC3591E7966D700756EA3 /* card_throw.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,11 +212,12 @@
 				D26E3E021E717B5600FB720E /* GameScene.swift in Sources */,
 				D26E3E041E717B5600FB720E /* GameViewController.swift in Sources */,
 				D2408E291E76B0110075E353 /* SKMultilineLabel.swift in Sources */,
+				D2CDC35B1E7AF31800756EA3 /* EditingViewController.swift in Sources */,
+				D2CFA9F81E76E49D005FA6C6 /* SettingsViewController.swift in Sources */,
 				D29F34441E76CBD300513E02 /* SCButton.swift in Sources */,
 				D2408E2F1E76C6A80075E353 /* MenuScene.swift in Sources */,
 				D26E3DFC1E717B5600FB720E /* AppDelegate.swift in Sources */,
-				D2CFA9F21E76D284005FA6C6 /* SettingsScene.swift in Sources */,
-				D2408E251E76A4AF0075E353 /* GameLogic.swift in Sources */,
+				D2408E251E76A4AF0075E353 /* GameRules.swift in Sources */,
 				D26E3E351E718D6B00FB720E /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +267,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -280,6 +318,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
