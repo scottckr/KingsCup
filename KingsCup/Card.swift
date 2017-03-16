@@ -59,8 +59,8 @@ class Card : SKSpriteNode {
     }
     
     func flip() {
-        let firstHalfFlip = SKAction.scaleX(to: 0.0, duration: 0.3)
-        let secondHalfFlip = SKAction.scaleX(to: 1.0, duration: 0.3)
+        let firstHalfFlip = SKAction.scaleX(to: 0.0, duration: 0.2)
+        let secondHalfFlip = SKAction.scaleX(to: 1.0, duration: 0.2)
         
         setScale(1.0)
         

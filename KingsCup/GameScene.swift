@@ -21,8 +21,6 @@ class GameScene: SKScene {
         let widthScale = size.width / 1080
         let heightScale = size.height / 1920
         
-        playerRules = UserDefaults.standard.object(forKey: "rules") as? [String:String] ?? defaultRules
-        
         let bg = SKSpriteNode(imageNamed: "tableBackground")
         
         let labelColor = UIColor(colorLiteralRed: 69.0/255, green: 55.0/255, blue: 31.0/255, alpha: 1.0)
@@ -72,6 +70,7 @@ class GameScene: SKScene {
     
     func playGame() {
         kingCount = 0
+        indexCounter = 51
         kingCountLabel.text = "Antal kungar dragna: \(kingCount)"
         
         for card in deck {
