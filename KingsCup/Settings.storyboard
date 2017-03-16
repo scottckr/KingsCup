@@ -48,7 +48,7 @@
                                     <color key="titleColor" red="0.26965395939999998" green="0.2153190985" blue="0.12292268720000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="6ve-lE-HgK" kind="show" id="DIL-I8-it8"/>
+                                    <segue destination="6ve-lE-HgK" kind="show" animates="NO" id="DIL-I8-it8"/>
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NdP-E8-BRR">

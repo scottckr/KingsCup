@@ -9,14 +9,17 @@
 import SpriteKit
 import GameplayKit
 
-var deck : [Card] = []
-var indexCounter : Int = 51
-var label : SKMultilineLabel!
-var kingCountLabel : SKLabelNode!
-var kingCount : Int = 0
-
 class GameScene: SKScene {
+    
+    var deck : [Card] = []
+    var indexCounter : Int = 51
+    var label : SKMultilineLabel!
+    var kingCountLabel : SKLabelNode!
+    var kingCount : Int = 0
+    
     override func didMove(to view: SKView) {
+        let widthScale = size.width / 1080
+        let heightScale = size.height / 1920
         
         playerRules = UserDefaults.standard.object(forKey: "rules") as? [String:String] ?? defaultRules
         
@@ -24,20 +27,20 @@ class GameScene: SKScene {
         
         let labelColor = UIColor(colorLiteralRed: 69.0/255, green: 55.0/255, blue: 31.0/255, alpha: 1.0)
         
-        label = SKMultilineLabel(text: "", labelWidth: Int(view.frame.width*1.95), pos: CGPoint(x: 0, y: 0), fontName: "Avenir-Heavy", fontSize: 35, fontColor: labelColor, leading: nil, alignment: .center, shouldShowBorder: false)
-        label.pos = CGPoint(x: 0, y: -(view.frame.height/2.3))
+        label = SKMultilineLabel(text: "", labelWidth: Int(1000 * widthScale), pos: CGPoint(x: 0, y: 0), fontName: "Avenir-Heavy", fontSize: 35, fontColor: labelColor, leading: nil, alignment: .center, shouldShowBorder: false)
+        label.pos = CGPoint(x: 0, y: -(335 * heightScale))
         
         kingCountLabel = SKLabelNode(fontNamed: "Avenir-Heavy")
         kingCountLabel.fontColor = labelColor
-        kingCountLabel.position = CGPoint(x: 0, y: view.frame.height*1.06)
-        
+        kingCountLabel.position = CGPoint(x: 0, y: 870 * heightScale)
+
         let backButton = SCButton(defaultButtonImage: "backButton", activeButtonImage: "backButton", buttonAction: goToMenu)
         backButton.setScale(0.08)
-        backButton.position = CGPoint(x: -(view.frame.width/1.01), y: view.frame.height*1.075)
+        backButton.position = CGPoint(x: -(460 * widthScale), y: 890 * heightScale)
         
         let replayButton = SCButton(defaultButtonImage: "replayGameDefault", activeButtonImage: "replayGameActive", buttonAction: playGame)
         replayButton.setScale(0.08)
-        replayButton.position = CGPoint(x: view.frame.width/1.01, y: view.frame.height*1.075)
+        replayButton.position = CGPoint(x: 460 * widthScale, y: 890 * heightScale)
         
         addChild(bg)
         addChild(label)
@@ -50,7 +53,7 @@ class GameScene: SKScene {
     
     func getDeck() -> [Card] {
         var deck : [Card] = []
-        for s in Suit.allSuits {
+        for s in Card.Suit.allSuits {
             for value in 1...13 {
                 deck.append(Card(suit: s, value: value))
             }
@@ -77,7 +80,7 @@ class GameScene: SKScene {
         deck.removeAll()
         label.text = ""
         deck = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: getDeck()) as! [Card]
-        var cardPos = CGPoint(x: 0, y: 150)
+        var cardPos = CGPoint(x: 0, y: 220 * size.height / 1920)
         for card in deck {
             cardPos.y += 1
             card.defaultPos = cardPos
@@ -137,8 +140,8 @@ class GameScene: SKScene {
                         self.run(SKAction.playSoundFileNamed("card_throw.wav", waitForCompletion: false))
                         card.run(SKAction.move(to: newPos, duration: 0.75), completion: {
                             card.removeFromParent()
-                            if let index = deck.index(of: card) {
-                                deck.remove(at: index)
+                            if let index = self.deck.index(of: card) {
+                                self.deck.remove(at: index)
                             }
                         })
                     } else {

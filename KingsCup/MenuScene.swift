@@ -12,6 +12,9 @@ import SpriteKit
 class MenuScene: SKScene {
     
     override func didMove(to view: SKView) {
+        let widthScale = size.width / 1080
+        let heightScale = size.height / 1920
+        
         let bg = SKSpriteNode(imageNamed: "tableBackground")
         addChild(bg)
         
@@ -21,18 +24,18 @@ class MenuScene: SKScene {
         playButton.setScale(0.25)
         settingsButton.setScale(0.25)
         
-        playButton.position = CGPoint(x: -(view.frame.width/2), y: -(view.frame.height/2))
-        settingsButton.position = CGPoint(x: view.frame.width/2, y: -(view.frame.height/2))
+        playButton.position = CGPoint(x: -(265 * widthScale), y: -(430 * heightScale))
+        settingsButton.position = CGPoint(x: 265 * widthScale, y: -(430 * heightScale))
         
         let glass = SKSpriteNode(imageNamed: "beer_glass")
         glass.setScale(0.15)
-        glass.position = CGPoint(x: 0, y: view.frame.height/2)
+        glass.position = CGPoint(x: 0, y: 430 * heightScale)
         
         let label = SKLabelNode(text: "King's Cup")
         label.fontName = "Avenir-Heavy"
         label.fontSize = 80
         label.fontColor = UIColor(colorLiteralRed: 69.0/255, green: 55.0/255, blue: 31.0/255, alpha: 1.0)
-        label.position = CGPoint(x: 0, y: view.frame.height/2)
+        label.position = glass.position
         
         addChild(playButton)
         addChild(settingsButton)
@@ -43,7 +46,7 @@ class MenuScene: SKScene {
     func goToGame() {
         if let view = view {
             if let scene = SKScene(fileNamed: "GameScene") {
-                scene.scaleMode = .aspectFill
+                scene.scaleMode = .fill
                 view.presentScene(scene)
             }
         }

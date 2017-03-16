@@ -8,13 +8,15 @@
 
 import SpriteKit
 
-enum Suit {
-    case H, D, C, S
-    
-    static let allSuits = [H, D, C, S]
-}
+
 
 class Card : SKSpriteNode {
+    enum Suit {
+        case H, D, C, S
+        
+        static let allSuits = [H, D, C, S]
+    }
+    
     let suit : Suit
     let value : Int
     let backTexture : SKTexture = SKTexture(imageNamed: "card_back")
