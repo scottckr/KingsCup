@@ -21,8 +21,8 @@
 		D26E3E0C1E717B5600FB720E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26E3E0A1E717B5600FB720E /* LaunchScreen.storyboard */; };
 		D26E3E351E718D6B00FB720E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E3E341E718D6B00FB720E /* Card.swift */; };
 		D29F34441E76CBD300513E02 /* SCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29F34431E76CBD300513E02 /* SCButton.swift */; };
-		D2CDC3581E7966D700756EA3 /* card_draw.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2CDC3561E7966D700756EA3 /* card_draw.wav */; };
-		D2CDC3591E7966D700756EA3 /* card_throw.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2CDC3571E7966D700756EA3 /* card_throw.wav */; };
+		D29FACF61E7D8E5600B42778 /* card_draw.wav in Resources */ = {isa = PBXBuildFile; fileRef = D29FACF41E7D8E5600B42778 /* card_draw.wav */; };
+		D29FACF71E7D8E5600B42778 /* card_throw.wav in Resources */ = {isa = PBXBuildFile; fileRef = D29FACF51E7D8E5600B42778 /* card_throw.wav */; };
 		D2CDC35B1E7AF31800756EA3 /* EditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CDC35A1E7AF31800756EA3 /* EditingViewController.swift */; };
 		D2CFA9F81E76E49D005FA6C6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CFA9F71E76E49D005FA6C6 /* SettingsViewController.swift */; };
 		D2CFA9FA1E76EB9D005FA6C6 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CFA9F91E76EB9D005FA6C6 /* Settings.storyboard */; };
@@ -45,8 +45,8 @@
 		D26E3E0D1E717B5600FB720E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D26E3E341E718D6B00FB720E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		D29F34431E76CBD300513E02 /* SCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCButton.swift; sourceTree = "<group>"; };
-		D2CDC3561E7966D700756EA3 /* card_draw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = card_draw.wav; path = ../../../../Downloads/cockatrice/card_draw.wav; sourceTree = "<group>"; };
-		D2CDC3571E7966D700756EA3 /* card_throw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = card_throw.wav; path = ../../../../Downloads/cockatrice/card_throw.wav; sourceTree = "<group>"; };
+		D29FACF41E7D8E5600B42778 /* card_draw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = card_draw.wav; path = Sounds/card_draw.wav; sourceTree = "<group>"; };
+		D29FACF51E7D8E5600B42778 /* card_throw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = card_throw.wav; path = Sounds/card_throw.wav; sourceTree = "<group>"; };
 		D2CDC35A1E7AF31800756EA3 /* EditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingViewController.swift; sourceTree = "<group>"; };
 		D2CFA9F71E76E49D005FA6C6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D2CFA9F91E76EB9D005FA6C6 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
@@ -124,8 +124,8 @@
 		D2CDC3551E7966C500756EA3 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				D2CDC3561E7966D700756EA3 /* card_draw.wav */,
-				D2CDC3571E7966D700756EA3 /* card_throw.wav */,
+				D29FACF41E7D8E5600B42778 /* card_draw.wav */,
+				D29FACF51E7D8E5600B42778 /* card_throw.wav */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2CDC3581E7966D700756EA3 /* card_draw.wav in Resources */,
+				D29FACF61E7D8E5600B42778 /* card_draw.wav in Resources */,
 				D26E3E071E717B5600FB720E /* Main.storyboard in Resources */,
 				D2408E2D1E76C68B0075E353 /* MenuScene.sks in Resources */,
 				D26E3DFE1E717B5600FB720E /* GameScene.sks in Resources */,
@@ -198,7 +198,7 @@
 				D26E3E001E717B5600FB720E /* Actions.sks in Resources */,
 				D2408E2B1E76C5580075E353 /* Assets.xcassets in Resources */,
 				D2CFA9FA1E76EB9D005FA6C6 /* Settings.storyboard in Resources */,
-				D2CDC3591E7966D700756EA3 /* card_throw.wav in Resources */,
+				D29FACF71E7D8E5600B42778 /* card_throw.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
