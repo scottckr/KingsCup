@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D221D8551E7D8DBA006DCE78 /* SKMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D221D8541E7D8DBA006DCE78 /* SKMultilineLabel.swift */; };
 		D2408E251E76A4AF0075E353 /* GameRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2408E241E76A4AF0075E353 /* GameRules.swift */; };
 		D2408E2B1E76C5580075E353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2408E2A1E76C5580075E353 /* Assets.xcassets */; };
 		D2408E2D1E76C68B0075E353 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D2408E2C1E76C68B0075E353 /* MenuScene.sks */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D221D8541E7D8DBA006DCE78 /* SKMultilineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMultilineLabel.swift; sourceTree = "<group>"; };
 		D2408E241E76A4AF0075E353 /* GameRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRules.swift; sourceTree = "<group>"; };
 		D2408E2A1E76C5580075E353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2408E2C1E76C68B0075E353 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				D26E3DFB1E717B5600FB720E /* AppDelegate.swift */,
 				D29F34431E76CBD300513E02 /* SCButton.swift */,
 				D26E3E341E718D6B00FB720E /* Card.swift */,
+				D221D8541E7D8DBA006DCE78 /* SKMultilineLabel.swift */,
 				D2408E241E76A4AF0075E353 /* GameRules.swift */,
 				D26E3E011E717B5600FB720E /* GameScene.swift */,
 				D2408E2E1E76C6A80075E353 /* MenuScene.swift */,
@@ -208,6 +211,7 @@
 			files = (
 				D26E3E021E717B5600FB720E /* GameScene.swift in Sources */,
 				D26E3E041E717B5600FB720E /* GameViewController.swift in Sources */,
+				D221D8551E7D8DBA006DCE78 /* SKMultilineLabel.swift in Sources */,
 				D2CDC35B1E7AF31800756EA3 /* EditingViewController.swift in Sources */,
 				D2CFA9F81E76E49D005FA6C6 /* SettingsViewController.swift in Sources */,
 				D29F34441E76CBD300513E02 /* SCButton.swift in Sources */,
