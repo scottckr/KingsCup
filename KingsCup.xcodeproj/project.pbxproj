@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D2408E251E76A4AF0075E353 /* GameRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2408E241E76A4AF0075E353 /* GameRules.swift */; };
-		D2408E291E76B0110075E353 /* SKMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2408E281E76B0110075E353 /* SKMultilineLabel.swift */; };
 		D2408E2B1E76C5580075E353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2408E2A1E76C5580075E353 /* Assets.xcassets */; };
 		D2408E2D1E76C68B0075E353 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D2408E2C1E76C68B0075E353 /* MenuScene.sks */; };
 		D2408E2F1E76C6A80075E353 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2408E2E1E76C6A80075E353 /* MenuScene.swift */; };
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		D2408E241E76A4AF0075E353 /* GameRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRules.swift; sourceTree = "<group>"; };
-		D2408E281E76B0110075E353 /* SKMultilineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKMultilineLabel.swift; path = "../../../../Downloads/03bfa93c07e247ee9358-e2cd8a5e0c5f7bbc65c8c6c2e379c130a57cb8be/SKMultilineLabel.swift"; sourceTree = "<group>"; };
 		D2408E2A1E76C5580075E353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2408E2C1E76C68B0075E353 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
 		D2408E2E1E76C6A80075E353 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 				D2CDC3551E7966C500756EA3 /* Sounds */,
 				D26E3DFB1E717B5600FB720E /* AppDelegate.swift */,
 				D29F34431E76CBD300513E02 /* SCButton.swift */,
-				D2408E281E76B0110075E353 /* SKMultilineLabel.swift */,
 				D26E3E341E718D6B00FB720E /* Card.swift */,
 				D2408E241E76A4AF0075E353 /* GameRules.swift */,
 				D26E3E011E717B5600FB720E /* GameScene.swift */,
@@ -211,7 +208,6 @@
 			files = (
 				D26E3E021E717B5600FB720E /* GameScene.swift in Sources */,
 				D26E3E041E717B5600FB720E /* GameViewController.swift in Sources */,
-				D2408E291E76B0110075E353 /* SKMultilineLabel.swift in Sources */,
 				D2CDC35B1E7AF31800756EA3 /* EditingViewController.swift in Sources */,
 				D2CFA9F81E76E49D005FA6C6 /* SettingsViewController.swift in Sources */,
 				D29F34441E76CBD300513E02 /* SCButton.swift in Sources */,
