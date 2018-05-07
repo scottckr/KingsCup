@@ -22,7 +22,7 @@ class MenuScene: SKScene {
         
         let playButton = SCButton(defaultButtonImage: "playButtonDefault", activeButtonImage: "playButtonActive", buttonAction: goToGame)
         let settingsButton = SCButton(defaultButtonImage: "settingsButtonDefault", activeButtonImage: "settingsButtonActive", buttonAction: goToSettings)
-        let rulesLabel = SKMultilineLabel(text: "Spelregler: Ställ ett stort glas i mitten av bordet och se till att alla har något drickbart. Tryck på knappen till vänster för att börja spela, ni behöver bara följa beskrivningarna som dyker upp. Vill du sätta dina egna regler så kan du göra det genom att trycka på den högra knappen.", labelWidth: Int(1000 * widthScale), pos: CGPoint(x: 0, y: 20 * heightScale), fontName: "Avenir-Heavy", fontSize: 30, fontColor: UIColor(colorLiteralRed: 69.0/255, green: 55.0/255, blue: 31.0/255, alpha: 1.0), leading: nil, alignment: .center, shouldShowBorder: false)
+        let rulesLabel = SKMultilineLabel(text: "Spelregler: Ställ ett stort glas i mitten av bordet och se till att alla har något drickbart. Tryck på knappen till vänster för att börja spela, ni behöver bara följa beskrivningarna som dyker upp. Vill du sätta dina egna regler så kan du göra det genom att trycka på den högra knappen.", labelWidth: Int(1000 * widthScale), pos: CGPoint(x: 0, y: 20 * heightScale), fontName: "Avenir-Heavy", fontSize: 30, fontColor: UIColor(red: 69.0/255, green: 55.0/255, blue: 31.0/255, alpha: 1.0), leading: nil, alignment: .center, shouldShowBorder: false)
         
         playButton.setScale(0.25)
         settingsButton.setScale(0.25)
@@ -37,7 +37,7 @@ class MenuScene: SKScene {
         let label = SKLabelNode(text: "King's Cup")
         label.fontName = "Avenir-Heavy"
         label.fontSize = 80
-        label.fontColor = UIColor(colorLiteralRed: 69.0/255, green: 55.0/255, blue: 31.0/255, alpha: 1.0)
+        label.fontColor = UIColor(red: 69.0/255, green: 55.0/255, blue: 31.0/255, alpha: 1.0)
         label.position = glass.position
         
         addChild(rulesLabel)

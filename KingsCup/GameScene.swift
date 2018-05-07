@@ -23,7 +23,7 @@ class GameScene: SKScene {
         
         let bg = SKSpriteNode(imageNamed: "tableBackground")
         
-        let labelColor = UIColor(colorLiteralRed: 69.0/255, green: 55.0/255, blue: 31.0/255, alpha: 1.0)
+        let labelColor = UIColor(red: 69.0/255, green: 55.0/255, blue: 31.0/255, alpha: 1.0)
         
         label = SKMultilineLabel(text: "", labelWidth: Int(1000 * widthScale), pos: CGPoint(x: 0, y: 0), fontName: "Avenir-Heavy", fontSize: 35, fontColor: labelColor, leading: nil, alignment: .center, shouldShowBorder: false)
         label.pos = CGPoint(x: 0, y: -(335 * heightScale))

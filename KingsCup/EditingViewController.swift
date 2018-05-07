@@ -20,7 +20,7 @@ class EditingViewController: UIViewController {
         // Do any additional setup after loading the view.
         editText.text = playerRules["\(editingValue)"]
         editText.layer.borderWidth = 1.0
-        editText.layer.borderColor = UIColor(colorLiteralRed: 69.0/255, green: 55.0/255, blue: 31.0/255, alpha: 1.0).cgColor
+        editText.layer.borderColor = UIColor(red: 69.0/255, green: 55.0/255, blue: 31.0/255, alpha: 1.0).cgColor
         viewTitle.title = "Redigerar: \(editingText)"
     }
 
